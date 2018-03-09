@@ -1,3 +1,35 @@
+## WINTER GENOMICS EVALUATION
+
+Score: 3/6 (Essential point missing)
+
+Evaluation observations:
+
+Evaluated by IAO, on 09/03/2018
+
+> The test was delivered hastly. Code lacks readability, is not in english, and does not work; 
+code does not seem to have been exhaustively tested by the applicant before delivery. Rscript uses hardcoded values to plot 
+points in the requested figure. Readme.md is not useful from a technical point of view. Final results report is not in english. 
+Test progress was not properly versionated by git from terminal (direct uploads from the webpage are not a propper way of 
+version control).
+
+## = Bioinformatics solution evaluation checklist =
+
+### Essentials:
+
+- [NA] Script(s) solves the problem
+- [PASS] Script(s) uses bash
+- [PASS] Script(s) uses R
+
+### Extras (half a point):
+
+- [PASS] Script uses awk.
+- [PASS] Script(s) uses another language, tool, command, etc to solve the problem.
+- [NA] Delivered test directory is properly versionated in a public git repository provid$
+- [NA] Delivered test directory includes process/README.md, which describes the contents $
+- [NA] Delivered test directory includes analysis_report.pdf, which gives a concrete, wel$
+- [NA] Delivered test directory follows the file structure proposed in this document.
+
+
 # NGS-Seq Coverage Calculation
 
 # Test for bioinformatics skills
@@ -25,23 +57,6 @@ This test evaluates the following required skills:
 * If you have trouble finishing this test, don't worry; you can deliver your progress and code so far.
   Consider writing a brief report of why you had troubles, and possible solutions. This also helps you showcase
   other important skills!
-
-## = Bioinformatics solution evaluation checklist =
-
-### Essentials:
-
-- [ ] Script(s) solves the problem
-- [ ] Script(s) uses bash
-- [ ] Script(s) uses R
-
-### Extras (half a point):
-
-- [ ] Script uses awk.
-- [ ] Script(s) uses another language, tool, command, etc to solve the problem.
-- [ ] Delivered test directory is properly versionated in a public git repository provided by the Winter Genomics team.
-- [ ] Delivered test directory includes process/README.md, which describes the contents of the delivered directory and the process followed by the proposed solution.
-- [ ] Delivered test directory includes analysis_report.pdf, which gives a concrete, well written answer to the problem given.
-- [ ] Delivered test directory follows the file structure proposed in this document.
 
 # #########
 # = TEST START - Now let's get hands-on! =
