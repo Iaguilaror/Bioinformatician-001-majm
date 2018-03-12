@@ -9,7 +9,6 @@ Para los programadores y bioinformáticos, el entorno en bash es algo muy famili
 
 
 
-
 3. How do your scripts solve the bioinformatics challenge? (Explain briefly how your scripts work)
 El script Winter.sh utiliza mayoritariamente el comando awk primero elimina la primera linea del archivo que contiene los nombres de las columnas, esto para hacer más fácil la manipulación del archivo (en mi caso), posteriormente todas las lineas en donde la columna depth_by_base se encuentre en 0 se elimina pues como se describe la formula mdcov tiene que se un valor d eal menos 1 por lo tanto todas las lineas que se encuentren en 0 las eliminamos, después se colapsan los datos es decir, en la columna de los nombres del loci junta los datos en categorías mientras que al mismo tiempo en la columna depth_by_base suma los datos en cada categoría y por ultimo en esta fase se calcula el ref1 para ser utilizado posteriormente. 
 
